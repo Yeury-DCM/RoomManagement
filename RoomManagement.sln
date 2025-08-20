@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B898E4AF-927D-4DFF-8967-9528B8EE02CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B01872F0-BA21-4A40-AD9D-3D2C7850861D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0C4B7426-2EEB-4F8C-88BD-061F27F6C241}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6CB0EAB5-E4C0-4199-B138-8619E2B6E813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomManagement.Core.Domain", "RoomManagement.Core.Domain\RoomManagement.Core.Domain.csproj", "{B26A02FC-83E6-4225-BC83-859EF0036F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomManagement.Core.Application", "RoomManagement.Core.Application\RoomManagement.Core.Application.csproj", "{5464F86A-ABED-4838-8C5E-ABCCEF6F4852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomManagement.Infrastructure.Persistence", "RoomManagement.Infrastructure.Persistence\RoomManagement.Infrastructure.Persistence.csproj", "{847C7274-5150-43C4-B29C-3C2DA447799A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomManagement.Web", "RoomManagement.Web\RoomManagement.Web.csproj", "{A38024DC-D288-46A8-A091-F4B8F0FB2692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomManagement.Core.Application.Tests", "RoomManagement.Core.Application.Tests\RoomManagement.Core.Application.Tests.csproj", "{AFFFDE8F-D2BE-41E6-BDF2-D7C5CC8EEB19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomManagement.Infrastructure.Persistence.Tests", "RoomManagement.Infrastructure.Persistence.Tests\RoomManagement.Infrastructure.Persistence.Tests.csproj", "{68E2BFE5-0A38-41BA-B949-BDC42ACA915B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B26A02FC-83E6-4225-BC83-859EF0036F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26A02FC-83E6-4225-BC83-859EF0036F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26A02FC-83E6-4225-BC83-859EF0036F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26A02FC-83E6-4225-BC83-859EF0036F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5464F86A-ABED-4838-8C5E-ABCCEF6F4852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5464F86A-ABED-4838-8C5E-ABCCEF6F4852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5464F86A-ABED-4838-8C5E-ABCCEF6F4852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5464F86A-ABED-4838-8C5E-ABCCEF6F4852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847C7274-5150-43C4-B29C-3C2DA447799A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847C7274-5150-43C4-B29C-3C2DA447799A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847C7274-5150-43C4-B29C-3C2DA447799A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847C7274-5150-43C4-B29C-3C2DA447799A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38024DC-D288-46A8-A091-F4B8F0FB2692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38024DC-D288-46A8-A091-F4B8F0FB2692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38024DC-D288-46A8-A091-F4B8F0FB2692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38024DC-D288-46A8-A091-F4B8F0FB2692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFFFDE8F-D2BE-41E6-BDF2-D7C5CC8EEB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFFDE8F-D2BE-41E6-BDF2-D7C5CC8EEB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFFDE8F-D2BE-41E6-BDF2-D7C5CC8EEB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFFDE8F-D2BE-41E6-BDF2-D7C5CC8EEB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E2BFE5-0A38-41BA-B949-BDC42ACA915B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E2BFE5-0A38-41BA-B949-BDC42ACA915B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E2BFE5-0A38-41BA-B949-BDC42ACA915B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E2BFE5-0A38-41BA-B949-BDC42ACA915B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B01872F0-BA21-4A40-AD9D-3D2C7850861D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0C4B7426-2EEB-4F8C-88BD-061F27F6C241} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6CB0EAB5-E4C0-4199-B138-8619E2B6E813} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B26A02FC-83E6-4225-BC83-859EF0036F81} = {B01872F0-BA21-4A40-AD9D-3D2C7850861D}
+		{5464F86A-ABED-4838-8C5E-ABCCEF6F4852} = {B01872F0-BA21-4A40-AD9D-3D2C7850861D}
+		{847C7274-5150-43C4-B29C-3C2DA447799A} = {0C4B7426-2EEB-4F8C-88BD-061F27F6C241}
+		{A38024DC-D288-46A8-A091-F4B8F0FB2692} = {6CB0EAB5-E4C0-4199-B138-8619E2B6E813}
+		{AFFFDE8F-D2BE-41E6-BDF2-D7C5CC8EEB19} = {B898E4AF-927D-4DFF-8967-9528B8EE02CA}
+		{68E2BFE5-0A38-41BA-B949-BDC42ACA915B} = {B898E4AF-927D-4DFF-8967-9528B8EE02CA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D2138DF-A42E-4187-8888-A093317F4E9E}
+	EndGlobalSection
+EndGlobal
